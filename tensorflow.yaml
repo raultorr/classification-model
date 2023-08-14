@@ -1,0 +1,29 @@
+name: tf-faces-class
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.10.9  ## specify desired version
+  - pip>=19.0
+  - jupyter
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - pillow
+  - tqdm
+  - requests
+  - h5py
+  - boto3
+  - ipykernel
+
+  ## uncomment for use with Jupyter
+  - ipykernel
+
+  ## PyPI packages
+  - pip:
+    - tensorflow  ## optional, but recommended
+    - bayesian-optimization
+    - numpy
+    - opencv-python ## for resizes images
